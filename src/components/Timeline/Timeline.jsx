@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Timeline.css";
+import "./TimeLine.css";
 
 const Timeline = ({ activities = [] }) => {
   const navigate = useNavigate();

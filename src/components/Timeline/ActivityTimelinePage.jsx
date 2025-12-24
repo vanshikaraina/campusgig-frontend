@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import api from "../../services/api"; // adjust import based on your project structure
-import "./Timeline.css";
+import "./TimeLine.css";
 
 const ActivityTimelinePage = () => {
   const [activities, setActivities] = useState([]);
